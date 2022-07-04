@@ -35,10 +35,10 @@ module.exports = (env, argv) => {
       new ModuleFederationPlugin({
         name: "container",
         remotes: {
-          Header: "header@http://localhost:3001/remoteEntry.js",
-          Employee: "employee@http://localhost:3002/remoteEntry.js",
-          UIComponents: "ui_components@http://localhost:3003/remoteEntry.js",
-          History: "logger@http://localhost:3004/remoteEntry.js",
+          Header: "header@https://mf-header-app.vercel.app/remoteEntry.js",
+          Employee: "employee@https://mf-employee-app.vercel.app/remoteEntry.js",
+          UIComponents: "ui_components@https://mf-ui-components.vercel.app/remoteEntry.js",
+          History: "logger@https://mf-history-app.vercel.app/remoteEntry.js",
         },
         shared: {
           ...deps,
