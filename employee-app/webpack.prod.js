@@ -33,7 +33,7 @@ module.exports = {
         "./AddEmployee": "./src/Components/AddEmployee",
       },
       remotes: {
-        UIComponents: "ui_components@http://localhost:3003/remoteEntry.js",
+        UIComponents: "ui_components@https://mf-ui-components.vercel.app/remoteEntry.js",
       },
       shared: {
         ...deps,
