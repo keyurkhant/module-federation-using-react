@@ -7,7 +7,7 @@ module.exports = {
   entry: "./src/index.js",
   mode: "production",
   output: {
-    publicPath: "http://localhost:3001/",
+    publicPath: "https://mf-header-app.vercel.app/",
   },
   module: {
     rules: [

@@ -11,7 +11,7 @@ module.exports = (env, argv) => {
     entry: "./src/index.js",
     mode: "production",
     output: {
-      publicPath: "http://localhost:3000/",
+      publicPath: "https://mf-container-app.vercel.app/",
     },
     module: {
       rules: [
